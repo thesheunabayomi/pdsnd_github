@@ -191,7 +191,7 @@ def display_data(df):
     - data_frame: pandas DataFrame
  
     """
- 
+    # This block of code help fix an infinite loop
     view_data = input('\nWould you like to view the first 5 rows of trip data? Enter yes or no\n').lower()
     start_loc = 0
 
