@@ -2,6 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
+# dictionary for city
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
@@ -56,6 +57,7 @@ def get_filters():
     print('You have selected: ', day)
 
     print('-'*40)
+    print('*'*40)
     return city, month, day
 
 
@@ -195,13 +197,13 @@ def display_data(df):
     view_data = input('\nWould you like to view the first 5 rows of trip data? Enter yes or no\n').lower()
     start_loc = 0
 
-    while view_data != 'no':       
-        if view_data == 'yes':
+    while see_data != 'no':       
+        if see_data == 'yes':
             print(df.iloc[start_loc:start_loc+5])
             start_loc += 5
         else:
             print("Invalid input. Please enter 'yes' or 'no'.")
-        view_data = input("Do you wish to view the next 5 rows of data?: ").lower()
+        see_data = input("Do you wish to view the next 5 rows of data?: ").lower()
             
 def main():
     while True:
