@@ -1,22 +1,19 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-November 2023
+Include the date you created this project and README file.
 
 ### Project Title
-Programming for Data Science with Python
+Replace the Project Title
 
 ### Description
-Explore US Bikeshare Data: use python to understand US bikeshare data. Calculate statistics and build an interactive environment where a user chooses the data and filter for a dataset to analyze.
-Post Your work on Github: use your local git repository and your GitHub repository. Fork a repository, work on files, stage files and commit them to GitHub. Also demonstrate how to hide files using .gitignore files.
+Describe what your project is about and what it does
 
 ### Files used
-bikeshare.py
-chicago.csv
-new-york_city.csv
-washington.csv
+Include the files used
 
 ### Credits
-https://www.udacity.com/
-https://ss64.com/bash/
+It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+### Documentation 
+Added a comment on line 195 to indicate block of code in bikeshare.py that executed infintely using a while loop
