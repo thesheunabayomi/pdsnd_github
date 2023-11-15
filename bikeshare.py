@@ -57,6 +57,7 @@ def get_filters():
     print('You have selected: ', day)
 
     print('-'*40)
+    print('*'*40)
     return city, month, day
 
 
